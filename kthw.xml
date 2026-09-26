@@ -13,6 +13,6 @@
     </ip>
     <dns>
         <forwarder addr='1.1.1.1'/>
-        <forwarder addr='0.0.0.0'/>
+        <forwarder addr='8.8.8.8'/>
     </dns>
 </network>
