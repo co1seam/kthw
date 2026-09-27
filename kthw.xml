@@ -6,11 +6,7 @@
         </nat>
     </forward>
     <bridge name='virbr1' stp='on' delay='0'/>
-    <ip address='10.240.0.1' netmask='255.255.255.0'>
-        <dhcp>
-            <range start='10.240.0.10' end='10.240.0.100'/>
-        </dhcp>
-    </ip>
+    <ip address='10.240.0.1' netmask='255.255.255.0'/>
     <dns>
         <forwarder addr='1.1.1.1'/>
         <forwarder addr='8.8.8.8'/>
