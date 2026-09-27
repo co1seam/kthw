@@ -1,0 +1,5 @@
+# name:role:mem:cpu:ip
+jumpbox:bastion:2048:1:10.240.0.10
+server:controller:2048:1:10.240.0.11
+node-0:worker:2048:1:10.240.0.20
+node-1:worker:2048:1:10.240.0.21
